@@ -87,7 +87,7 @@
     </platform>
 
     <!-- android -->
-    <platform name="android">
+    <!-- <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Printer">
                 <param name="android-package" value="de.appplant.cordova.plugin.printer.Printer"/>
@@ -118,7 +118,7 @@
 
         <source-file src="src/android/PrintProxy.java"
             target-dir="src/de/appplant/cordova/plugin/printer" />
-    </platform>
+    </platform> -->
 
     <!-- windows -->
     <platform name="windows">
