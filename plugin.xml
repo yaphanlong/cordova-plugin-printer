@@ -94,9 +94,9 @@
             </feature>
         </config-file>
 
-        <preference name="ANDROID_SUPPORT_V4_VERSION" default="28.+"/>
-
-        <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION"/>
+        <preference name="ANDROIDX_PRINT_VERSION" default="1.0.0"/>
+        
+        <framework src="androidx.print:print:$ANDROIDX_PRINT_VERSION" />
 
         <source-file src="src/android/PrintAdapter.java"
             target-dir="src/de/appplant/cordova/plugin/printer" />
